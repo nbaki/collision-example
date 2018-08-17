@@ -1,3 +1,18 @@
+#nav {
+    margin: auto;
+    max-width: 1280px;
+}
+
 nav .navbar {
     background-color: rgb(255, 255, 255);
+}
+
+nav > a.navbar-brand > img.logo {
+    width: 225px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1.5rem;
 }

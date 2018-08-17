@@ -1,3 +1,130 @@
 h1 {
     font-weight: 700;
 }
+
+.background-intro {
+    padding-top: 3rem;
+    background: url('../images/photos/collision-banner.png');
+    background-position: center;
+}
+
+#intro-header {
+    color: rgb(255, 255, 255);
+    margin: 2rem auto 4rem auto;
+}
+
+#intro-icons-wrap {
+    display: block;
+    margin: auto;
+    max-width: 700px;
+}
+
+#intro-icons {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: auto;
+}
+
+#intro-text {
+    margin: auto;
+    color: rgb(83, 183, 132);
+    font-weight: 600;
+    text-align: center;
+}
+
+.background-blue-bar {
+    background-color: rgba(0, 60, 113, .9);
+    width: 100%;
+    padding: 1rem;
+}
+
+#commitment-text {
+    padding: 2rem;
+    max-width: 1080px;
+    margin: auto;
+}
+
+#certified-header {
+    margin-bottom: 1.5rem;
+}
+
+.background-grad {
+    background: rgb(220, 220, 220); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(100,100,100,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 68%, rgba(100,100,100,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(100,100,100,1) 0%,rgba(255,255,255,1) 33%,rgba(255,255,255,1) 68%,rgba(100,100,100,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(100,100,100,1) 0%,rgba(255,255,255,1) 33%,rgba(255,255,255,1) 68%,rgba(100,100,100,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646464', endColorstr='#646464',GradientType=1 ); /* IE6-9 */
+}
+
+#why-holman-wrap {
+    display: block;
+    margin: auto;
+    max-width: 900px;
+    padding-bottom: 1rem;
+}
+
+#why-holman {
+    color: rgb(0, 60, 113);
+    margin: 2rem auto;
+}
+
+#why-holman-block-wrap {
+    display: block;
+    margin: auto;
+    background-color: rgb(194, 223, 211);
+    padding: 1rem;
+    border-radius: 7px;
+    max-width: 270px;
+    margin-bottom: 2rem;
+}
+
+#why-line {
+    border-bottom: 3px solid rgb(0, 60, 113);
+    margin: 1rem auto;
+}
+
+#why-holman-icons {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+.background-history {
+    background: url('../images/photos/holman_history.png');
+    padding: 3rem;
+}
+
+#history-header {
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+}
+
+#history-text {
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
+}
+
+#history-btn {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 60, 113);
+}
+
+#history-btn:hover {
+    background: rgb(0, 60, 113);
+    color: rgb(255, 255, 255);
+}
+
+.holman-icon-container {
+    display: block;
+    margin: auto;
+    max-width: 800px;
+}
+
+#history-icons {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 65px;
+}
