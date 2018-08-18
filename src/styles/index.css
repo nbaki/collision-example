@@ -1,5 +1,6 @@
 h1 {
     font-weight: 700;
+    cursor: default;
 }
 
 .background-intro {
@@ -11,6 +12,7 @@ h1 {
 #intro-header {
     color: rgb(255, 255, 255);
     margin: 2rem auto 4rem auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .3);
 }
 
 #intro-icons-wrap {
@@ -65,7 +67,7 @@ h1 {
 #why-holman-wrap {
     display: block;
     margin: auto;
-    max-width: 900px;
+    max-width: 1080px;
     padding-bottom: 1rem;
 }
 
@@ -98,6 +100,11 @@ h1 {
 .background-history {
     background: url('../images/photos/holman_history.png');
     padding: 3rem;
+}
+
+#history-wrap {
+    margin: auto;
+    max-width: 1080px;
 }
 
 #history-header {
