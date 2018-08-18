@@ -33,6 +33,11 @@ h1 {
     text-align: center;
 }
 
+#intro-text > small {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
 .background-blue-bar {
     background-color: rgba(0, 60, 113, .9);
     width: 100%;
