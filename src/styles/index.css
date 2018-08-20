@@ -3,10 +3,21 @@ h1 {
     cursor: default;
 }
 
+.vertical-side {
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+.border-side:not(:last-child) {
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
 .background-intro {
     padding-top: 3rem;
     background: url('../images/photos/collision-banner.png');
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #intro-header {
@@ -35,7 +46,7 @@ h1 {
     text-align: center;
 }
 
-#intro-text > small {
+#intro-text :not(p) {
     color: rgb(255, 255, 255);
     font-weight: 700;
 }
@@ -100,6 +111,10 @@ h1 {
 .background-history {
     background: url('../images/photos/holman_history.png');
     padding: 3rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #history-wrap {
@@ -128,15 +143,15 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-.holman-icon-container {
+.holman-icon-wrap {
     display: block;
-    margin: auto;
-    max-width: 800px;
+    margin: 2rem auto;
+    max-width: 850px;
 }
 
 #history-icons {
     display: block;
     margin: auto;
-    width: 100px;
-    height: 65px;
+    width: 150px;
+    height: 98px;
 }
