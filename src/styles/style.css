@@ -3,6 +3,20 @@ html, body {
     background-color: rgb(255, 255, 255);
 }
 
+#contained-text {
+    padding: 2rem;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.background-grad {
+    background: rgb(220, 220, 220);
+    background: -moz-linear-gradient(left, rgba(100,100,100,1) 0%, rgba(255,255,255,1) 33%, rgba(255,255,255,1) 68%, rgba(100,100,100,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(100,100,100,1) 0%,rgba(255,255,255,1) 33%,rgba(255,255,255,1) 68%,rgba(100,100,100,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(100,100,100,1) 0%,rgba(255,255,255,1) 33%,rgba(255,255,255,1) 68%,rgba(100,100,100,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646464', endColorstr='#646464',GradientType=1 ); /* IE6-9 */
+}
+
 .logo {
     width: 150px;
 }
@@ -40,7 +54,7 @@ input#date-input {
     height: 23px;
 }
 
-#selectable {
+.selectable {
     cursor: pointer;
 }
 
