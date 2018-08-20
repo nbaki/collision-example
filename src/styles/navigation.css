@@ -1,6 +1,17 @@
+@keyframes logoAnimation{
+    0% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 #nav-wrap {
     width: 100%;
     background-color: rgb(250, 250, 250);
+    animation: logoAnimation 1s 1 0s ease-in-out;
 }
 
 #nav {
