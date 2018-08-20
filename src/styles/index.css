@@ -3,6 +3,16 @@ h1 {
     cursor: default;
 }
 
+@keyframes headerAnimation{
+    0% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .vertical-side {
     border-left: 1px solid rgb(255, 255, 255);
 }
@@ -24,6 +34,7 @@ h1 {
     color: rgb(255, 255, 255);
     margin: 2rem auto 4rem auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, .3);
+    animation: headerAnimation 2s 1 0s ease-in-out;
 }
 
 #intro-icons-wrap {
@@ -65,6 +76,7 @@ h1 {
 
 #certified-header {
     margin-bottom: 1.5rem;
+    animation: headerAnimation 2s 1 0s ease-in-out;
 }
 
 .background-grad {
@@ -85,6 +97,7 @@ h1 {
 #why-holman {
     color: rgb(0, 60, 113);
     margin: 2rem auto;
+    animation: headerAnimation 2s 1 0s ease-in-out;
 }
 
 #why-holman-block-wrap {

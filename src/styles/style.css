@@ -30,6 +30,20 @@ html, body {
     transform: scale(1.1);
 }
 
+input#date-input {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+#date-icon {
+    width: 23px;
+    height: 23px;
+}
+
+#selectable {
+    cursor: pointer;
+}
+
 footer {
     bottom: 0;
     width: 100%;
