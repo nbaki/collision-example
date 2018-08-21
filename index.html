@@ -196,59 +196,141 @@
         <div class="modal-body">
           <form>
             <div class="form-group">
-              <div class="col">
-                <small id="nameHelpBlock" class="form-text text-muted">
-                  Your name
-                </small>
-              </div>
-              <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="First and Last name">
+              <small id="nameHelpBlock" class="form-text text-muted">
+                First name
+              </small>
+              <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="First name">
             </div>
             <div class="form-group">
-              <div class="col">
-                <small id="dateHelpBlock" class="form-text text-muted">
-                  Your e-mail
-                </small>
-              </div>
+              <small id="nameHelpBlock" class="form-text text-muted">
+                Last name
+              </small>
+              <input type="name" class="form-control" id="inputName" aria-describedby="nameHelp" placeholder="Last name">
+            </div>
+            <div class="form-group">
+              <small id="dateHelpBlock" class="form-text text-muted">
+                Your e-mail
+              </small>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@example.com">
             </div>
             <div class="form-group">
-              <div class="col">
-                <small id="dateHelpBlock" class="form-text text-muted">
-                  Contact number
-                </small>
-              </div>
+              <small id="addressHelpBlock" class="form-text text-muted">
+                Address
+              </small>
+              <input type="adress" class="form-control" id="inputAdress" aria-describedby="adressHelp" placeholder="0 Penny Ln">
+            </div>
+            <div class="form-group">
+              <small id="cityHelpBlock" class="form-text text-muted">
+                City
+              </small>
+              <input type="city" class="form-control" id="inputCity" aria-describedby="addressHelp" placeholder="Ft. lauderdale">
+            </div>
+            <div class="form-group">
+              <small id="cityHelpBlock" class="form-text text-muted">
+                State
+              </small>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option value="AL">Alabama</option>
+              	<option value="AK">Alaska</option>
+              	<option value="AZ">Arizona</option>
+              	<option value="AR">Arkansas</option>
+              	<option value="CA">California</option>
+              	<option value="CO">Colorado</option>
+              	<option value="CT">Connecticut</option>
+              	<option value="DE">Delaware</option>
+              	<option value="DC">District Of Columbia</option>
+              	<option value="FL">Florida</option>
+              	<option value="GA">Georgia</option>
+              	<option value="HI">Hawaii</option>
+              	<option value="ID">Idaho</option>
+              	<option value="IL">Illinois</option>
+              	<option value="IN">Indiana</option>
+              	<option value="IA">Iowa</option>
+              	<option value="KS">Kansas</option>
+              	<option value="KY">Kentucky</option>
+              	<option value="LA">Louisiana</option>
+              	<option value="ME">Maine</option>
+              	<option value="MD">Maryland</option>
+              	<option value="MA">Massachusetts</option>
+              	<option value="MI">Michigan</option>
+              	<option value="MN">Minnesota</option>
+              	<option value="MS">Mississippi</option>
+              	<option value="MO">Missouri</option>
+              	<option value="MT">Montana</option>
+              	<option value="NE">Nebraska</option>
+              	<option value="NV">Nevada</option>
+              	<option value="NH">New Hampshire</option>
+              	<option value="NJ">New Jersey</option>
+              	<option value="NM">New Mexico</option>
+              	<option value="NY">New York</option>
+              	<option value="NC">North Carolina</option>
+              	<option value="ND">North Dakota</option>
+              	<option value="OH">Ohio</option>
+              	<option value="OK">Oklahoma</option>
+              	<option value="OR">Oregon</option>
+              	<option value="PA">Pennsylvania</option>
+              	<option value="RI">Rhode Island</option>
+              	<option value="SC">South Carolina</option>
+              	<option value="SD">South Dakota</option>
+              	<option value="TN">Tennessee</option>
+              	<option value="TX">Texas</option>
+              	<option value="UT">Utah</option>
+              	<option value="VT">Vermont</option>
+              	<option value="VA">Virginia</option>
+              	<option value="WA">Washington</option>
+              	<option value="WV">West Virginia</option>
+              	<option value="WI">Wisconsin</option>
+              	<option value="WY">Wyoming</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <small id="zipHelpBlock" class="form-text text-muted">
+                Zip Code
+              </small>
+              <input type="zip" class="form-control" id="inputZip" aria-describedby="zipHelp" placeholder="00000">
+            </div>
+            <div class="form-group">
+              <small id="dateHelpBlock" class="form-text text-muted">
+                Contact number
+              </small>
               <input type="tel" class="form-control" name="phone" id="inputPhone" placeholder="(123)-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
             </div>
+            <hr />
             <div class="form-group">
-              <div class="col">
-                <small id="vehicleMakeHelpBlock" class="form-text text-muted">
-                  Vehicle Make
-                </small>
-              </div>
-              <input type="text" class="form-control" id="inputVehicleMake" aria-describedby="vehicleMakeHelp" placeholder="Audi, Ford..">
-            </div>
-            <div class="form-group">
-              <div class="col">
-                <small id="vehicleModelHelpBlock" class="form-text text-muted">
-                  Vehicle Model
-                </small>
-              </div>
-              <input type="text" class="form-control" id="inputVehicleModel" aria-describedby="vehicleModelHelp" placeholder="A3, Focus..">
-            </div>
-            <div class="form-group">
-              <div class="col">
-                <small id="vehicleYearHelpBlock" class="form-text text-muted">
-                  Vehicle Year
-                </small>
-              </div>
+              <small id="vehicleYearHelpBlock" class="form-text text-muted">
+                Vehicle Year
+              </small>
               <input type="text" class="form-control" id="inputVehicleYear" aria-describedby="vehicleYearHelp" placeholder="1998, 2018">
             </div>
             <div class="form-group">
-              <div class="col">
-                <small id="dateHelpBlock" class="form-text text-muted">
-                  Select an approximate date
-                </small>
-              </div>
+              <small id="vehicleMakeHelpBlock" class="form-text text-muted">
+                Vehicle Make
+              </small>
+              <input type="text" class="form-control" id="inputVehicleMake" aria-describedby="vehicleMakeHelp" placeholder="Audi, Ford..">
+            </div>
+            <div class="form-group">
+              <small id="vehicleModelHelpBlock" class="form-text text-muted">
+                Vehicle Model
+              </small>
+              <input type="text" class="form-control" id="inputVehicleModel" aria-describedby="vehicleModelHelp" placeholder="A3, Focus..">
+            </div>
+            <div class="form-group">
+              <small id="vehicleYearHelpBlock" class="form-text text-muted">
+                Mileage
+              </small>
+              <input type="text" class="form-control" id="inputVehicleYear" aria-describedby="vehicleYearHelp" placeholder="1998, 2018">
+            </div>
+            <div class="form-group">
+              <small id="vehicleYearHelpBlock" class="form-text text-muted">
+                License Plate
+              </small>
+              <input type="text" class="form-control" id="inputVehicleYear" aria-describedby="vehicleYearHelp" placeholder="1998, 2018">
+            </div>
+            <hr />
+            <div class="form-group">
+              <small id="dateHelpBlock" class="form-text text-muted">
+                Select an approximate date
+              </small>
               <div class="input-group" >
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="inputGroupPrepend"><img id="date-icon" src="src/images/icons/date.svg" /></span>
@@ -260,11 +342,21 @@
               </div>
             </div>
             <div class="form-group">
-              <div class="col">
-                <small id="dateHelpBlock" class="form-text text-muted">
-                  Please provide a brief description of your inquiry
-                </small>
-              </div>
+              <small id="vehicleModelHelpBlock" class="form-text text-muted">
+                Preferred Appointment Time
+              </small>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Anytime</option>
+                <option>Morning</option>
+                <option>Mid-day</option>
+                <option>Afternoon</option>
+                <option>Evening</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <small id="dateHelpBlock" class="form-text text-muted">
+                Please provide a brief description of services needed
+              </small>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </form>
