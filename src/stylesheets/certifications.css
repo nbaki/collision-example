@@ -7,6 +7,12 @@
     background-size: cover;
 }
 
+#certified-icons-wrap {
+    display: block;
+    margin: auto;
+    max-width: 1080px;
+}
+
 .certified-block {
     padding: 3rem;
 }
@@ -24,11 +30,20 @@
 }
 
 #brand-logo {
-    width: 150px;
-    height: 50px;
+    width: 125px;
+    height: 75px;
+    display: block;
+    margin: auto;
 }
-
 
 #brand-name {
     font-weight: 700;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+#certified-link {
+    font-size: .6rem;
+    color: rgb(0, 60, 113);
 }

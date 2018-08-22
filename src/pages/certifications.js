@@ -40,18 +40,18 @@ export default class Certifications extends React.Component {
         </Container>
         <div className="background-grad certified-block">
           <Container fluid>
-            <div id="intro-icons-wrap">
+            <div id="certified-icons-wrap">
               <Row>
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={AudiLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">AUDI</div>
-                          <a href="/certified/brands/audi"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/audi"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -60,13 +60,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={AstonMartinLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">ASTON MARTIN</div>
-                          <a href="/certified/brands/aston_martin"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/aston_martin"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -77,13 +77,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={BMWLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">BMW</div>
-                          <a href="/certified/brands/bmw"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/bmw"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -92,13 +92,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={BentleyLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">BENTLEY</div>
-                          <a href="/certified/brands/bentley"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/bentley"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -109,13 +109,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={HondaLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">HONDA</div>
-                          <a href="/certified/brands/honda"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/honda"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -124,13 +124,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={InfinitiLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">INFINITI</div>
-                          <a href="/certified/brands/infiniti"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/infiniti"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -141,13 +141,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={MiniLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">MINI</div>
-                          <a href="/certified/brands/mini"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/mini"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
@@ -156,13 +156,13 @@ export default class Certifications extends React.Component {
                 <Col>
                   <div className="certified-card">
                     <Row>
-                      <Col>
+                      <Col md={6}>
                         <img id="brand-logo" src={RollsRoyceLogo} />
                       </Col>
-                      <Col>
+                      <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">ROLLS ROYCE</div>
-                          <a href="/certified/brands/rolls_royce"><small>LEARN MORE ></small></a>
+                          <a id="certified-link" href="/certified/brands/rolls_royce"><small>LEARN MORE ></small></a>
                         </div>
                       </Col>
                     </Row>
