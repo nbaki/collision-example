@@ -3,7 +3,7 @@ html, body {
     background-color: rgb(255, 255, 255);
 }
 
-#contained-text {
+div.contained-text {
     padding: 2rem;
     max-width: 1080px;
     margin: auto;
@@ -56,4 +56,18 @@ input#date-input {
 
 .selectable {
     cursor: pointer;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+    background-color: rgb(0, 60, 113);
+    padding: 2.5rem;
+}
+
+.footer > div > p {
+    color: rgb(255, 255, 255);
+    cursor: default;
 }
