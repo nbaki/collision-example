@@ -34,7 +34,7 @@ h1 {
     color: rgb(255, 255, 255);
     margin: 2rem auto 4rem auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, .3);
-    animation: headerAnimation 2s 1 0s ease-in-out;
+    animation: headerAnimation 3s 1 0s ease-in-out;
 }
 
 #intro-icons-wrap {
