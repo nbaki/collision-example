@@ -2,12 +2,12 @@ import React from 'react';
 import '../stylesheets/certifications.css';
 import { Container, Row, Col } from 'reactstrap';
 
-import AudiLogo from '../images/brands/Audi.svg';
+import AudiLogo from '../images/brands/audi.svg';
 import AstonMartinLogo from '../images/brands/AstonMartin.svg';
 import BMWLogo from '../images/brands/BMW.svg';
 import BentleyLogo from '../images/brands/Bentley.svg';
 import HondaLogo from '../images/brands/Honda.svg';
-import InfinitiLogo from '../images/brands/Infiniti.svg';
+import InfinitiLogo from '../images/brands/INFINITI.svg';
 import MiniLogo from '../images/brands/MINI.svg';
 import RollsRoyceLogo from '../images/brands/RollsRoyce.svg';
 
