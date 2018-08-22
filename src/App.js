@@ -6,6 +6,14 @@ import Footer from './components/footer/footer';
 
 import Home from './pages/home';
 import Certifications from './pages/certifications';
+import AudiBrand from './pages/certified/brands/audi';
+import AstonMartinBrand from './pages/certified/brands/aston_martin'
+import BentleyBrand from './pages/certified/brands/bentley';
+import BMWBrand from './pages/certified/brands/bmw';
+import HondaBrand from './pages/certified/brands/honda';
+import InfinitiBrand from './pages/certified/brands/infiniti';
+import MiniBrand from './pages/certified/brands/mini';
+import RollsRoyceBrand from './pages/certified/brands/rolls_royce';
 
 class App extends Component {
   render() {
@@ -13,6 +21,14 @@ class App extends Component {
       <div>
         <Navigation />
           <Switch>
+            <Route exact path="/certified/brands/audi" component={AudiBrand} />
+            <Route exact path="/certified/brands/aston_martin" component={AstonMartinBrand} />
+            <Route exact path="/certified/brands/bentley" component={BentleyBrand} />
+            <Route exact path="/certified/brands/bmw" component={BMWBrand} />
+            <Route exact path="/certified/brands/honda" component={HondaBrand} />
+            <Route exact path="/certified/brands/infiniti" component={InfinitiBrand} />
+            <Route exact path="/certified/brands/mini" component={MiniBrand} />
+            <Route exact path="/certified/brands/rolls_royce" component={RollsRoyceBrand} />
             <Route exact path="/pages/certifications" component={Certifications} />
             <Route exact path="/" component={Home} />
           </Switch>
