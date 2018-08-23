@@ -34,7 +34,7 @@ export default class Navigation extends React.Component {
                 <ScheduleAppointment />
               </NavItem>
               <NavItem>
-                <NavLink href="/pages">LOCATION</NavLink>
+                <NavLink href="/pages/location">LOCATION</NavLink>
               </NavItem>
               <NavItem>
                 <Contact />

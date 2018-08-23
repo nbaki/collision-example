@@ -44,19 +44,19 @@ export default class ScheduleAppointment extends React.Component {
               </FormGroup>
               <FormGroup>
                 <Label for="contactMethod">Preferred Contact Method</Label>
-                <CustomInput type="contactMethod" id="contactMethod" name="time">
+                <Input type="select" name="select" id="contactMethod">
                   <option value="">Select</option>
                   <option value="contactPhone">Phone</option>
                   <option value="contactEmail">Email</option>
-                </CustomInput>
+                </Input>
               </FormGroup>
               <FormGroup>
                 <Label for="address">Address</Label>
                 <Input type="address" name="address" id="address" placeholder="" />
               </FormGroup>
               <FormGroup>
-                <Label for="exampleSelect">State</Label>
-                <Input type="select" name="select" id="exampleSelect">
+                <Label for="stateSelect">State</Label>
+                <Input type="select" name="select" id="stateSelect">
                   <option value="">Select</option>
                   <option value="AL">Alabama</option>
                 	<option value="AK">Alaska</option>
