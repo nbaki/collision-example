@@ -12,7 +12,6 @@ import MiniLogo from '../images/brands/MINI.svg';
 import RollsRoyceLogo from '../images/brands/RollsRoyce.svg';
 
 export default class Certifications extends React.Component {
-
   render() {
     return (
       <div>
@@ -51,7 +50,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">AUDI</div>
-                          <a id="certified-link" href="/certified/brands/audi"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/audi">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -66,7 +67,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">ASTON MARTIN</div>
-                          <a id="certified-link" href="/certified/brands/aston_martin"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/aston_martin">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -83,7 +86,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">BMW</div>
-                          <a id="certified-link" href="/certified/brands/bmw"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/bmw">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -98,7 +103,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">BENTLEY</div>
-                          <a id="certified-link" href="/certified/brands/bentley"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/bentley">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -115,7 +122,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">HONDA</div>
-                          <a id="certified-link" href="/certified/brands/honda"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/honda">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -130,7 +139,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">INFINITI</div>
-                          <a id="certified-link" href="/certified/brands/infiniti"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/infiniti"><small>LEARN MORE ></small></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -147,7 +158,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">MINI</div>
-                          <a id="certified-link" href="/certified/brands/mini"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/mini">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
@@ -162,7 +175,9 @@ export default class Certifications extends React.Component {
                       <Col md={6}>
                         <div className="text-center">
                           <div id="brand-name">ROLLS ROYCE</div>
-                          <a id="certified-link" href="/certified/brands/rolls_royce"><small>LEARN MORE ></small></a>
+                          <small>
+                            <a id="certified-link" href="/certified/brands/rolls_royce">LEARN MORE ></a>
+                          </small>
                         </div>
                       </Col>
                     </Row>
