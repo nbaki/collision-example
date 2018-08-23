@@ -14,6 +14,7 @@ import HondaBrand from './pages/certified/brands/honda';
 import InfinitiBrand from './pages/certified/brands/infiniti';
 import MiniBrand from './pages/certified/brands/mini';
 import RollsRoyceBrand from './pages/certified/brands/rolls_royce';
+import Location from './pages/location';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
       <div>
         <Navigation />
           <Switch>
+            <Route exact path="/pages/location" component={Location} />
             <Route exact path="/certified/brands/audi" component={AudiBrand} />
             <Route exact path="/certified/brands/aston_martin" component={AstonMartinBrand} />
             <Route exact path="/certified/brands/bentley" component={BentleyBrand} />

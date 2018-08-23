@@ -119,6 +119,7 @@ h1 {
 #history-wrap {
     margin: auto;
     max-width: 1080px;
+    padding: 2rem;
 }
 
 #history-header {
@@ -129,6 +130,7 @@ h1 {
 #history-text {
     color: rgb(255, 255, 255);
     margin-bottom: 1.5rem;
+    max-width: 1080px;
 }
 
 #history-btn {
