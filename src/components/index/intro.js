@@ -20,7 +20,7 @@ export default class Intro extends React.Component {
           <Container fluid>
             <div className="intro-icons-wrap">
               <Row>
-                <Col className="hover-expand">
+                <Col sm={6} className="hover-expand">
                   <img src={ScheduleIcon} id="intro-icons" />
                   <div id="intro-text">
                     <p>
@@ -29,7 +29,7 @@ export default class Intro extends React.Component {
                     <small>LEARN MORE ></small>
                   </div>
                 </Col>
-                <Col className="hover-expand vertical-side">
+                <Col sm={6} className="hover-expand vertical-side">
                   <img src={CertificationIcon} id="intro-icons" />
                   <div id="intro-text">
                     <p>
