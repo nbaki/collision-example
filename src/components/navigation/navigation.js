@@ -1,6 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,  NavLink } from 'reactstrap';
 import ScheduleAppointment from '../../modals/schedule/schedule_appointment';
+import Contact from '../../modals/contact/contact';
 import FtLauderdaleLogo from '../../images/assets/LuaderdaleLogo.svg';
 import '../../stylesheets/navigation.css';
 
@@ -36,7 +37,7 @@ export default class Navigation extends React.Component {
                 <NavLink href="/pages">LOCATION</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/pages/">CONTACT US</NavLink>
+                <Contact />
               </NavItem>
             </Nav>
           </Collapse>
