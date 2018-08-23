@@ -44,6 +44,12 @@
 }
 
 #certified-link {
-    font-size: .6rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: rgb(0, 60, 113);
+}
+
+a#certified-link:hover {
+    text-decoration: none;
+    font-weight: 800;
 }

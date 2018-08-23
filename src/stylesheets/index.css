@@ -37,7 +37,7 @@ h1 {
     animation: headerAnimation 3s 1 0s ease-in-out;
 }
 
-#intro-icons-wrap {
+.intro-icons-wrap {
     display: block;
     margin: auto;
     max-width: 700px;
