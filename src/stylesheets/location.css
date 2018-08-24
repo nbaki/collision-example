@@ -1,4 +1,36 @@
+#hours-wrap {
+    display: block;
+    margin: 2rem auto 7rem auto;
+    max-width: 400px;
+}
+
 #map {
     display: block;
-    margin: 3rem auto 7rem auto;
+    margin: 3rem auto;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 7px;
+    width: 100%;
+    max-width: 800px;
+    -webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.table th, .table td {
+    border-top: 1px solid rgba(255, 255, 255, 0) !important;
+}
+
+#time-icon {
+    margin-top: -7px;
+    width: 35px;
+    height: 35px;
+}
+
+#address-text {
+    margin-top: 3rem;
+    color: rgb(0, 60, 113);
+}
+
+#hours-header {
+    color: rgb(0, 60, 113);
 }
