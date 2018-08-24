@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import InfinitiBanner from '../../../images/banners/Infiniti-Header.jpg';
 
 export default class InfinitiBrand extends React.Component {
   render() {
     return (
       <div>
+        <div className="banner-fade">
+          <img src={InfinitiBanner} id="banner" alt="INFINITI" />
+        </div>
         <Container fluid>
           <div className="contained-text">
             <Row>

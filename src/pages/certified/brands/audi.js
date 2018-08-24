@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import AudiBanner from '../../../images/banners/Audi-Header.jpg'
 
 export default class AudiBrand extends React.Component {
   render() {
     return (
       <div>
+        <div className="banner-fade">
+          <img src={AudiBanner} id="banner" alt="Audi" />
+        </div>
         <Container fluid>
           <div className="contained-text">
             <Row>

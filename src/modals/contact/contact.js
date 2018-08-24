@@ -1,6 +1,5 @@
 import React from 'react';
 import Formsy from 'formsy-react';
-import Input from '../../components/form/input';
 import { Container, Row, Col, Button, Modal, ModalHeader, ModalBody, ModalFooter, NavLink, Form, FormGroup, Label, Input, CustomInput } from 'reactstrap';
 import PhoneIcon from '../../images/icons/phone.svg';
 import '../../stylesheets/contact.css';

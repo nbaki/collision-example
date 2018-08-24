@@ -2,7 +2,7 @@ import React from 'react';
 import {withFormsy} from 'formsy-react';
 import { FormGroup, FormControl, Label } from 'reactstrap';
 
-class Input extends BaseComponent {
+class FormInput extends BaseComponent {
   constructor(props) {
     super(props);
     this._bind('onChange');
@@ -27,4 +27,4 @@ Input.defaultProps = {
   type: 'text'
 }
 
-export default withFormsy(Input);
+export default withFormsy(FormInput);

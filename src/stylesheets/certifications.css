@@ -1,3 +1,22 @@
+@keyframes bannerAnimation{
+    0% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.banner-fade {
+    animation: bannerAnimation 2s 1 0s ease-in-out;;
+}
+
+#banner {
+    width: 100%;
+    height: inherit;
+}
+
 .certification-intro {
     padding: 3rem;
     background-image: url('../images/photos/banner2.png');

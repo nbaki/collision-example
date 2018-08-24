@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import BMWBanner from '../../../images/banners/BMW-Header.jpg';
 
 export default class BMWBrand extends React.Component {
   render() {
     return (
       <div>
+        <div className="banner-fade">
+          <img src={BMWBanner} id="banner" alt="BMW" />
+        </div>
         <Container fluid>
           <div className="contained-text">
             <Row>

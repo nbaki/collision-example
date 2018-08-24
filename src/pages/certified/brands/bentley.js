@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import BentleyBanner from '../../../images/banners/Bentley-Header.jpg';
 
 export default class BentleyBrand extends React.Component {
   render() {
     return (
       <div>
+        <div className="banner-fade">
+          <img src={BentleyBanner} id="banner" alt="Bentley" />
+        </div>
         <Container fluid>
           <div className="contained-text">
             <Row>

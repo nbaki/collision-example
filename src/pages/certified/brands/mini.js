@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import MiniBanner from '../../../images/banners/MINI-Header.jpg';
 
 export default class MiniBrand extends React.Component {
   render() {
     return (
       <div>
+        <div className="banner-fade">
+          <img src={MiniBanner} id="banner" alt="MINI" />
+        </div>
         <Container fluid>
           <div className="contained-text">
             <Row>
