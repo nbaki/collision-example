@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Button, Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Label, Input, CustomInput } from 'reactstrap';
 import DateIcon from '../../images/icons/date.svg';
+import jquery from 'jquery';
 
 export default class ScheduleAppointment extends React.Component {
   constructor(props) {
@@ -10,6 +11,21 @@ export default class ScheduleAppointment extends React.Component {
     };
 
     this.toggle = this.toggle.bind(this);
+  }
+
+  sendSchedule() {
+       var my_form = this;
+       jquery.ajax({
+          type: "POST",
+          url: 'https://collision.holmanautomotive.com/schedule_laudale',
+          data: jquery( this ).serialize(),
+          success: function() {
+              alert('Mail Sent');
+          },
+          complete: function() {
+            my_form.reset();
+          }
+       });
   }
 
   toggle() {

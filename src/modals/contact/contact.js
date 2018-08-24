@@ -1,7 +1,10 @@
 import React from 'react';
+import Formsy from 'formsy-react';
+import Input from '../../components/form/input';
 import { Container, Row, Col, Button, Modal, ModalHeader, ModalBody, ModalFooter, NavLink, Form, FormGroup, Label, Input, CustomInput } from 'reactstrap';
 import PhoneIcon from '../../images/icons/phone.svg';
 import '../../stylesheets/contact.css';
+import jquery from 'jquery';
 
 export default class Contact extends React.Component {
   constructor(props) {
@@ -11,6 +14,21 @@ export default class Contact extends React.Component {
     };
 
     this.toggle = this.toggle.bind(this);
+  }
+
+  sendContact() {
+     var my_form = this;
+     jquery.ajax({
+        type: "POST",
+        url: 'https://collision.holmanautomotive.com/contact_lauderdale',
+        data: jquery( this ).serialize(),
+        success: function() {
+            alert('Mail Sent');
+        },
+        complete: function() {
+          my_form.reset();
+        }
+     });
   }
 
   toggle() {
