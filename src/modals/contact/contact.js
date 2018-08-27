@@ -10,11 +10,22 @@ import jquery from 'jquery';
 export default class Contact extends React.Component {
   constructor(props) {
     super(props);
+    this.disableButton = this.disableButton.bind(this);
+    this.enableButton = this.enableButton.bind(this);
     this.state = {
-      modal: false
+      modal: false,
+      canSubmit: false
     };
 
     this.toggle = this.toggle.bind(this);
+  }
+
+  disableButton() {
+    this.setState({ canSubmit: false });
+  }
+
+  enableButton() {
+    this.setState({ canSubmit: true });
   }
 
   sendContact() {
