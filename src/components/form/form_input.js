@@ -1,8 +1,8 @@
 import React from 'react';
 import {withFormsy} from 'formsy-react';
-import { FormGroup, FormControl, Label } from 'reactstrap';
+import { FormGroup, Label, Input, HelpBlock } from 'reactstrap';
 
-class FormInput extends BaseComponent {
+class FormInput extends React.Component {
   constructor(props) {
     super(props);
     this._bind('onChange');
@@ -16,8 +16,8 @@ class FormInput extends BaseComponent {
     let errorMessage = this.props.getErrorMessage();
 
     return <FormGroup>
-      {this.props.label && <ControlLabel>{this.props.label}: {this.props.required && '*'}</ControlLabel>}
-      <FormControl type={this.props.type} componentClass={this.props.componentClass} value={this.props.getValue() || ''} onChange={this.onChange} placeholder={this.props.placeholder} />
+      {this.props.label && <Label>{this.props.label}: {this.props.required && '*'}</Label>}
+      <Input type={this.props.type} componentClass={this.props.componentClass} value={this.props.getValue() || ''} onChange={this.onChange} placeholder={this.props.placeholder} />
       <HelpBlock>{errorMessage}</HelpBlock>
     </FormGroup>
   }

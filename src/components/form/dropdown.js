@@ -1,9 +1,9 @@
 import React from 'react';
 import { withFormsy} from 'formsy-react';
-import { FormGroup, Label, HelpBlock} from 'reactstrap';
+import { FormGroup, Label, HelpBlock } from 'reactstrap';
 import Select from 'react-select';
 
-class Dropdown extends BaseComponent {
+class Dropdown extends React.Component {
   constructor(props) {
     super(props);
     this._bind('onChange');
@@ -28,7 +28,7 @@ class Dropdown extends BaseComponent {
     let errorMessage = this.props.getErrorMessage();
 
     return <FormGroup>
-      {this.props.label && <ControlLabel>{this.props.label}: {this.props.required && '*'}</ControlLabel>}
+      {this.props.label && <Label>{this.props.label}: {this.props.required && '*'}</Label>}
       <Select
         onChange={this.onChange}
         placeholder={this.props.placeholder}
