@@ -32,10 +32,12 @@ export default class Intro extends React.Component {
                 <Col sm={6} className="hover-expand vertical-side">
                   <img src={CertificationIcon} id="intro-icons" />
                   <div id="intro-text">
-                    <p>
-                      Our Certifications
-                    </p>
-                    <small>LEARN MORE ></small>
+                    <a href="/pages/certifications">
+                      <p>
+                        Our Certifications
+                      </p>
+                      <small>LEARN MORE ></small>
+                    </a>
                   </div>
                 </Col>
               </Row>
