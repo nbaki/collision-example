@@ -1,12 +1,12 @@
 import React from 'react';
 import { withFormsy} from 'formsy-react';
-import { FormGroup, Label, HelpBlock } from 'reactstrap';
+import { FormGroup, Label, FormText } from 'reactstrap';
 import Select from 'react-select';
 
 class Dropdown extends React.Component {
   constructor(props) {
     super(props);
-    this._bind('onChange');
+    this.onChange = this.onChange.bind(this);
     this.state = {
       selections: []
     }
@@ -38,7 +38,7 @@ class Dropdown extends React.Component {
         multi={this.props.multiple}
         disabled={this.props.disabled}
       />
-      <HelpBlock>{errorMessage}</HelpBlock>
+      <FormText>{errorMessage}</FormText>
     </FormGroup>
   }
 }
