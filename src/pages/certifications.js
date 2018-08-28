@@ -15,7 +15,7 @@ export default class Certifications extends React.Component {
   render() {
     return (
       <div>
-        <div className="certification-intro">
+        <div className="certification-intro banner-fade">
           <Container fluid>
             <Row>
               <Col>
