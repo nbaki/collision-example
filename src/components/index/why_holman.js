@@ -16,7 +16,7 @@ export default class WhyHolman extends React.Component {
                 </Col>
                 <Col md={4}>
                   <div id="why-holman-block-wrap" className="hover-expand">
-                    <img src={FacilityIcon} id="why-holman-icons" />
+                    <img src={FacilityIcon} id="why-holman-icons" alt="" />
                     <div className="text-center">
                       State of the Art <br />Facility
                     </div>
@@ -29,7 +29,7 @@ export default class WhyHolman extends React.Component {
                 </Col>
                 <Col md={4}>
                   <div id="why-holman-block-wrap" className="hover-expand">
-                    <img src={TechsIcon} id="why-holman-icons" />
+                    <img src={TechsIcon} id="why-holman-icons" alt="" />
                     <div className="text-center">
                       Certified <br />Technicians
                     </div>
@@ -42,7 +42,7 @@ export default class WhyHolman extends React.Component {
                 </Col>
                 <Col md={4}>
                   <div id="why-holman-block-wrap" className="hover-expand">
-                    <img src={GuaranteeIcon} id="why-holman-icons" />
+                    <img src={GuaranteeIcon} id="why-holman-icons" alt="" />
                     <div className="text-center">
                       Lifetime <br /> Guarantee
                     </div>

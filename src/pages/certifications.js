@@ -45,7 +45,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={AudiLogo} />
+                        <img id="brand-logo" src={AudiLogo} alt="Audi" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -62,7 +62,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={AstonMartinLogo} />
+                        <img id="brand-logo" src={AstonMartinLogo} alt="Aston Martin" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -81,7 +81,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={BMWLogo} />
+                        <img id="brand-logo" src={BMWLogo} alt="BMW" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -98,7 +98,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={BentleyLogo} />
+                        <img id="brand-logo" src={BentleyLogo} alt="Bentley" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -117,7 +117,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={HondaLogo} />
+                        <img id="brand-logo" src={HondaLogo} alt="Honda" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -134,7 +134,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={InfinitiLogo} />
+                        <img id="brand-logo" src={InfinitiLogo} alt="INFINITI" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -153,7 +153,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={MiniLogo} />
+                        <img id="brand-logo" src={MiniLogo} alt="MINI" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">
@@ -170,7 +170,7 @@ export default class Certifications extends React.Component {
                   <div className="certified-card">
                     <Row>
                       <Col md={6}>
-                        <img id="brand-logo" src={RollsRoyceLogo} />
+                        <img id="brand-logo" src={RollsRoyceLogo} alt="Rolls-Royce" />
                       </Col>
                       <Col md={6}>
                         <div className="text-center">

@@ -13,7 +13,7 @@ export default class Location extends React.Component {
             <Col>
               <div className="text-center">
                 <h3 id="address-text">
-                  <a href="https://goo.gl/maps/5sz3EfzHeuB2" target="_blank">
+                  <a href="https://goo.gl/maps/5sz3EfzHeuB2" target="_blank" rel="noopener noreferrer">
                     900 N Andrews Ave <br />
                     Fort Lauderdale, FL 33304
                   </a>
@@ -24,7 +24,7 @@ export default class Location extends React.Component {
           <Row>
             <Col>
               <div>
-                <a href="https://goo.gl/maps/5sz3EfzHeuB2" target="_blank">
+                <a href="https://goo.gl/maps/5sz3EfzHeuB2" target="_blank" rel="noopener noreferrer">
                   <img src={MapsImage} id="map" alt="Map" />
                 </a>
               </div>

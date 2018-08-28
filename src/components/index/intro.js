@@ -21,7 +21,7 @@ export default class Intro extends React.Component {
             <div className="intro-icons-wrap">
               <Row>
                 <Col sm={6} className="hover-expand">
-                  <img src={ScheduleIcon} id="intro-icons" />
+                  <img src={ScheduleIcon} id="intro-icons" alt="" />
                   <div id="intro-text">
                     <p>
                       Schedule Appointment
@@ -30,7 +30,7 @@ export default class Intro extends React.Component {
                   </div>
                 </Col>
                 <Col sm={6} className="hover-expand vertical-side">
-                  <img src={CertificationIcon} id="intro-icons" />
+                  <img src={CertificationIcon} id="intro-icons" alt="" />
                   <div id="intro-text">
                     <a href="/pages/certifications">
                       <p>
