@@ -22,7 +22,7 @@ export default class WhyHolman extends React.Component {
                     </div>
                     <div id="why-line">
                     </div>
-                    <p class="text-center">
+                    <p className="text-center">
                       <small>Using state of the art machinery we can spot everything down to the slightest fracture</small>
                     </p>
                   </div>
@@ -35,7 +35,7 @@ export default class WhyHolman extends React.Component {
                     </div>
                     <div id="why-line" >
                     </div>
-                    <p class="text-center">
+                    <p className="text-center">
                       <small>Our technicians are factory certified to ensure your vehicle is returned to like new</small>
                     </p>
                   </div>
