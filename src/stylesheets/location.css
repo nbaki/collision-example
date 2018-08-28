@@ -1,3 +1,19 @@
+#location-wrap {
+    display: block;
+    margin: 2rem auto;
+    max-width: 1080px;
+}
+
+.location-intro {
+    padding: 3rem;
+    background-image: url('../images/photos/mini/MINI1.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #hours-wrap {
     display: block;
     margin: 2rem auto 7rem auto;
@@ -6,7 +22,7 @@
 
 #map {
     display: block;
-    margin: 3rem auto;
+    margin: 3rem;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 7px;
     width: 100%;
@@ -28,7 +44,21 @@
 
 #address-text {
     margin-top: 3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#address-text > a {
     color: rgb(0, 60, 113);
+}
+
+#address-text > a:hover {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#hours-wrap > .table th, .table td {
+    padding: .5rem !important;
 }
 
 #hours-header {
