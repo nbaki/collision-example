@@ -35,6 +35,7 @@ export default class InfinitiBrand extends React.Component {
                     Peace of mind knowing your vehicle is in the hands of a professional.
                   </li>
                 </ul>
+                <img src={InfinitiPhoto1} id="brand-photos" />
                 <p>
                   Besides being an INFINITI Certified Collision Repair Facility, there are many other benefits to having your car repaired at the Lauderdale Collision Center.
                 </p>
@@ -55,6 +56,7 @@ export default class InfinitiBrand extends React.Component {
                     We are equipped to handle all makes and models.
                   </li>
                 </ul>
+                <img src={InfinitiPhoto2} id="brand-photos" />
               </Col>
             </Row>
           </div>

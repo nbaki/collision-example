@@ -25,12 +25,14 @@ export default class MiniBrand extends React.Component {
                 <p>
                   Serious repairs often require your MINI to be disassembled to some extent. From individual repairs to reassembly, Certified Collision Repair Center technicians use tools and procedures designed from vehicle blueprints for pinpoint accuracy.
                 </p>
+                <img src={MiniPhoto2} id="brand-photos" />
                 <p>
                   Each technician at a MINI Certified Collision Repair Center completes hours and hours of rigorous MINI-specific training.
                 </p>
                 <p>
                   Make sure your MINI's repairs are up to your standards, which is easy with a MINI Certified Collision Repair Center.
                 </p>
+                <img src={MiniPhoto3} id="brand-photos" />
                 <p>
                   We have a proven record of working successfully with insurance providers - including fully documented repair procedures.
                 </p>

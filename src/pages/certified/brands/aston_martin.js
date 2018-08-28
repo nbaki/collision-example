@@ -23,7 +23,7 @@ export default class AstonMartinBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={AstonMartinPhoto1} id="brand-cert-photos" />
+                    <img src={AstonMartinPhoto1} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>
@@ -31,7 +31,7 @@ export default class AstonMartinBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={AstonMartinPhoto3} id="brand-cert-photos" />
+                    <img src={AstonMartinPhoto3} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>
@@ -46,7 +46,7 @@ export default class AstonMartinBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={AstonMartinPhoto4} id="brand-cert-photos" />
+                    <img src={AstonMartinPhoto4} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>

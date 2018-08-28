@@ -23,7 +23,7 @@ export default class BentleyBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={BentleyPhoto1} id="brand-cert-photos" />
+                    <img src={BentleyPhoto1} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>
@@ -34,7 +34,7 @@ export default class BentleyBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={BentleyPhoto2} id="brand-cert-photos" />
+                    <img src={BentleyPhoto2} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>
@@ -45,7 +45,7 @@ export default class BentleyBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={BentleyPhoto3} id="brand-cert-photos" />
+                    <img src={BentleyPhoto3} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>

@@ -25,12 +25,14 @@ export default class HondaBrand extends React.Component {
                 <p>
                   Only Honda Genuine Parts are used to live up to the Honda reputation for quality, and to suit the specific performance of a Honda
                 </p>
+                <img src={HondaPhoto1} id="brand-photos" />
                 <p>
                   Our staff is fully trained by I-CAR and ASE
                 </p>
                 <p>
                   Peace of mind knowing your vehicle is in the hands of a professional.
                 </p>
+                <img src={HondaPhoto2} id="brand-photos" />
               </Col>
             </Row>
           </div>

@@ -27,7 +27,7 @@ export default class AudiBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={AudiPhoto1} id="brand-cert-photos" />
+                    <img src={AudiPhoto1} id="brand-photos" />
                   </Col>
                 </Row>
                 <p>
@@ -43,7 +43,7 @@ export default class AudiBrand extends React.Component {
                 </p>
                 <Row>
                   <Col>
-                    <img src={AudiPhoto2} id="brand-cert-photos" />
+                    <img src={AudiPhoto2} id="brand-photos" />
                   </Col>
                 </Row>
               </Col>
