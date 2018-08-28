@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import HondaBanner from '../../../images/banners/Honda-Header.jpg';
+import HondaPhoto1 from '../../../images/photos/honda/_Honda1.jpg';
+import HondaPhoto2 from '../../../images/photos/honda/_Honda2.jpg';
+import HondaPhoto3 from '../../../images/photos/honda/_Honda3.jpg';
+import HondaPhoto4 from '../../../images/photos/honda/_Honda4.jpg';
 
 export default class HondaBrand extends React.Component {
   render() {

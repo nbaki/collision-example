@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import InfinitiBanner from '../../../images/banners/Infiniti-Header.jpg';
+import InfinitiPhoto1 from '../../../images/photos/infiniti/_Infiniti1.jpg';
+import InfinitiPhoto2 from '../../../images/photos/infiniti/_Infiniti2.jpg';
+import InfinitiPhoto3 from '../../../images/photos/infiniti/_Infiniti3.jpg';
 
 export default class InfinitiBrand extends React.Component {
   render() {

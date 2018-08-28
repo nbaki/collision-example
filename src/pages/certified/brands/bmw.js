@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import BMWBanner from '../../../images/banners/BMW-Header.jpg';
+import BMWPhoto1 from '../../../images/photos/bmw/_BMW1.jpg';
+import BMWPhoto2 from '../../../images/photos/bmw/_BMW2.jpg';
+import BMWPhoto3 from '../../../images/photos/bmw/_BMW3.jpg';
+import BMWPhoto4 from '../../../images/photos/bmw/_BMW4.jpg';
 
 export default class BMWBrand extends React.Component {
   render() {

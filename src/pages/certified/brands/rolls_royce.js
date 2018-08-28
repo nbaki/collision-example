@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import RollsRoyceBanner from '../../../images/banners/Rolls-Royce-Header.jpg';
+import RollsRoycePhoto1 from '../../../images/photos/rolls-royce/_Rolls1.jpg';
+import RollsRoycePhoto2 from '../../../images/photos/rolls-royce/_Rolls2.jpg';
 
 export default class RollsRoyceBrand extends React.Component {
   render() {

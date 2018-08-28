@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import AudiBanner from '../../../images/banners/Audi-Header.jpg'
+import AudiPhoto1 from '../../../images/photos/audi/_Audi1.jpg';
+import AudiPhoto2 from '../../../images/photos/audi/_Audi2.jpg';
 
 export default class AudiBrand extends React.Component {
   render() {
@@ -23,6 +25,11 @@ export default class AudiBrand extends React.Component {
                   you are the one who decides where your vehicle will be repaired.  As the owner or lessee, you have the right to know in advance what parts are proposed,
                   and decide which ones are ultimately used, for the repair of your vehicle.  
                 </p>
+                <Row>
+                  <Col>
+                    <img src={AudiPhoto1} id="brand-cert-photos" />
+                  </Col>
+                </Row>
                 <p>
                   Lauderdale Collision Center uses only Audi Genuine Parts that are backed by the Audi Manufacturer Vehicle Warranty. 
                 </p>
@@ -34,6 +41,11 @@ export default class AudiBrand extends React.Component {
                   Our goal as an Audi Authorized Collision Repair Facility, is to bring your Audi back to its pre-crash condition. 
                   We call it, "Fixed Right, First Time." In short - you can rely on Audi excellence.
                 </p>
+                <Row>
+                  <Col>
+                    <img src={AudiPhoto2} id="brand-cert-photos" />
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </div>
