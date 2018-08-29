@@ -62,13 +62,6 @@
     vertical-align: middle;
 }
 
-@media screen and (max-width: 950px) and (min-width: 767px) {
-    #brand-name {
-        white-space: normal;
-        line-height: 23px;
-    }
-}
-
 #certified-link {
     font-size: 1rem;
     font-weight: 600;
@@ -77,7 +70,19 @@
 
 a#certified-link:hover {
     text-decoration: none;
-    font-weight: 800;
+    color: rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 950px) and (min-width: 767px) {
+    #brand-name {
+        white-space: normal;
+        line-height: 23px;
+        font-size: 1.2rem;
+    }
+
+    #certified-link {
+        font-size: .8rem;
+    }
 }
 
 #brand-photos {
