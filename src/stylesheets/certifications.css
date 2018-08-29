@@ -57,9 +57,16 @@
 
 #brand-name {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     white-space: nowrap;
     vertical-align: middle;
+}
+
+@media screen and (max-width: 950px) and (min-width: 767px) {
+    #brand-name {
+        white-space: normal;
+        line-height: 23px;
+    }
 }
 
 #certified-link {
