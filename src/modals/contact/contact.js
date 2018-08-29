@@ -7,6 +7,8 @@ import PhoneIcon from '../../images/icons/phone.svg';
 import '../../stylesheets/contact.css';
 import jquery from 'jquery';
 
+// http://collision.lvh.me:3000/schedule_lauderdale
+
 export default class Contact extends React.Component {
   constructor(props) {
     super(props);
@@ -74,7 +76,7 @@ export default class Contact extends React.Component {
               <FormInput name="last_name" label="Last Name" validations="minLength:2" required />
               <FormInput name="email" label="Email" validations="isEmail" required />
               <FormInput name="phone" label="Phone" validations="isNumeric,minLength:7,maxLength:10" required />
-              <Dropdown name="contactby" placeholder="Preferred Contact Method" options={this.state.contactMethod} required />
+              <Dropdown name="contactby" label="Preferred Contact Method" placeholder="Preferred Contact Method" options={this.state.contactMethod} required />
               <FormInput componentClass="textarea" name="question" label="Questions or Comments" required />
               <ModalFooter>
                 <Button color="secondary" onClick={this.toggle}>Cancel</Button>

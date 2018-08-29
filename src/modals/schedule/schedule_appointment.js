@@ -122,10 +122,10 @@ export default class ScheduleAppointment extends React.Component {
               <FormInput name="last_name" label="Last Name" validations="minLength:2" required />
               <FormInput name="email" label="Email" validations="isEmail" required />
               <FormInput name="phone" label="Phone" validations="isNumeric,minLength:7,maxLength:10" required />
-              <Dropdown name="contactby" placeholder="Preferred Contact Method" options={this.state.contactMethod} required />
+              <Dropdown name="contactby" label="Preferred Contact Method" placeholder="Preferred Contact Method" options={this.state.contactMethod} required />
               <FormInput name="address" label="Address" required />
               <FormInput name="city" label="City" required />
-              <Dropdown name="selectstate" placeholder="Select State" options={this.state.selectState} required />
+              <Dropdown name="selectstate" label="Select State" placeholder="Select State" options={this.state.selectState} required />
               <FormInput name="zipcode" label="Zip Code" validations="isNumeric" required />
               <hr />
               <FormInput name="vehiclemake" label="Vehicle Make" required />
@@ -135,7 +135,7 @@ export default class ScheduleAppointment extends React.Component {
               <FormInput name="mileage" label="Mileage" validations="isNumeric,maxLength:6" required />
               <hr />
               <FormInput type="date" name="date" label="Approximate Appointment Date" />
-              <Dropdown name="preferredtime" placeholder="Preferred Time for Contact" options={this.state.preferredTime} required />
+              <Dropdown name="preferredtime" label="Preferred Time for Contact" placeholder="Preferred Time for Contact" options={this.state.preferredTime} required />
               <FormInput type="textarea" name="servicedescription" label="Description of Service" required />
               <FormInput type="textarea" name="comments" label="Comments and Notes" required />
               <ModalFooter>
