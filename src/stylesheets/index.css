@@ -70,10 +70,14 @@ h1 {
     font-weight: 700;
 }
 
+#inrto-text small {
+    margin-top: -1rem;
+}
+
 .background-blue-bar {
     background-color: rgba(0, 60, 113, .9);
     width: 100%;
-    padding: 1rem;
+    padding: 1.1rem;
 }
 
 #certified-header {
@@ -99,6 +103,7 @@ h1 {
     margin: auto;
     background-color: rgb(194, 223, 211);
     padding: 1rem;
+    font-weight: 500;
     border-radius: 7px;
     max-width: 270px;
     margin-bottom: 2rem;
