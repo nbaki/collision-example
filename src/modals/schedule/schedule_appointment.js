@@ -5,6 +5,7 @@ import Dropdown from '../../components/form/dropdown';
 import { NavLink, Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import DateIcon from '../../images/icons/date.svg';
 import jquery from 'jquery';
+import '../../stylesheets/schedule_appointment.css';
 
 export default class ScheduleAppointment extends React.Component {
   constructor(props) {

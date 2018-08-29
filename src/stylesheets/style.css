@@ -49,11 +49,6 @@ input#date-input {
     border-bottom-right-radius: .25rem;
 }
 
-#date-icon {
-    width: 23px;
-    height: 23px;
-}
-
 .selectable {
     cursor: pointer;
 }
