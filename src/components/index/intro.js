@@ -23,21 +23,19 @@ export default class Intro extends React.Component {
               <Row>
                 <Col sm={6} className="hover-expand">
                   <img src={ScheduleIcon} id="intro-icons" alt="" />
-                  <div id="intro-text">
-                    <p>
-                      <ScheduleAppointment />
-                    </p>
+                  <div id="intro-text" className="text-center">
+                    <ScheduleAppointment />
                     <small>LEARN MORE ></small>
                   </div>
                 </Col>
                 <Col sm={6} className="hover-expand vertical-side">
                   <img src={CertificationIcon} id="intro-icons" alt="" />
-                  <div id="intro-text">
+                  <div id="intro-text" className="text-center">
                     <a href="/pages/certifications">
-                      <p id="certification-text-match">
+                      <div id="certification-text-match">
                         OUR CERTIFICATIONS
-                      </p>
-                      <small>LEARN MORE ></small>
+                      </div>
+                      <small id="small-intro-text">LEARN MORE ></small>
                     </a>
                   </div>
                 </Col>

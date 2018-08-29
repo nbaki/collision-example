@@ -50,7 +50,11 @@ h1 {
     margin: auto;
 }
 
-#intro-text {
+div#certification-text-match {
+    margin: .5rem auto .40rem auto;
+}
+
+#intro-text a {
     margin: auto;
     color: rgb(83, 183, 132);
     font-weight: 600;
@@ -61,17 +65,11 @@ h1 {
     text-decoration: none;
 }
 
-#intro-text p#certification-text-match {
-    line-height: 40px;
-}
-
-#intro-text :not(p) {
+#intro-text small {
+    margin-top: 10px;
     color: rgb(255, 255, 255);
     font-weight: 700;
-}
-
-#inrto-text small {
-    margin-top: -1rem;
+    cursor: pointer;
 }
 
 .background-blue-bar {
