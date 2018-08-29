@@ -4,6 +4,7 @@ import '../../stylesheets/index.css';
 import '../../stylesheets/style.css';
 import ScheduleIcon from '../../images/icons/schedule.svg';
 import CertificationIcon from '../../images/icons/certified.svg';
+import ScheduleAppointment from '../../modals/schedule/schedule_appointment';
 
 export default class Intro extends React.Component {
   render() {
@@ -24,7 +25,7 @@ export default class Intro extends React.Component {
                   <img src={ScheduleIcon} id="intro-icons" alt="" />
                   <div id="intro-text">
                     <p>
-                      Schedule Appointment
+                      <ScheduleAppointment />
                     </p>
                     <small>LEARN MORE ></small>
                   </div>
@@ -33,8 +34,8 @@ export default class Intro extends React.Component {
                   <img src={CertificationIcon} id="intro-icons" alt="" />
                   <div id="intro-text">
                     <a href="/pages/certifications">
-                      <p>
-                        Our Certifications
+                      <p id="certification-text-match">
+                        OUR CERTIFICATIONS
                       </p>
                       <small>LEARN MORE ></small>
                     </a>

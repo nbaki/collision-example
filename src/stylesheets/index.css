@@ -57,6 +57,14 @@ h1 {
     text-align: center;
 }
 
+#intro-text a:hover {
+    text-decoration: none;
+}
+
+#intro-text p#certification-text-match {
+    line-height: 40px;
+}
+
 #intro-text :not(p) {
     color: rgb(255, 255, 255);
     font-weight: 700;
