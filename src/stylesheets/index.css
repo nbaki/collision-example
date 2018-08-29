@@ -108,6 +108,9 @@ div#certification-text-match {
     border-radius: 7px;
     max-width: 270px;
     margin-bottom: 2rem;
+    -webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
 }
 
 #why-line {
@@ -151,6 +154,9 @@ div#certification-text-match {
     margin-bottom: 1.5rem;
     font-weight: 700;
     color: rgb(0, 60, 113);
+    -webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
 }
 
 #history-btn:hover {
