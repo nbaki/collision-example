@@ -28,13 +28,13 @@ export default class History extends React.Component {
             </Row>
             <div className="holman-icon-wrap">
               <Row>
-                <Col md={4}>
+                <Col>
                   <img src={EnterprisesLogo} id="history-icons" alt="Holman Enterprises" />
                 </Col>
-                <Col md={4}>
+                <Col>
                   <img src={AutomotiveLogo} id="history-icons" alt="Holman Automotive" />
                 </Col>
-                <Col md={4}>
+                <Col>
                   <img src={CollisionLogo} id="history-icons" alt="Holman Collision" />
                 </Col>
               </Row>
