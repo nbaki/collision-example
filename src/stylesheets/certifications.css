@@ -19,7 +19,7 @@
 
 .certification-intro {
     padding: 3rem;
-    background-image: url('../images/photos/banner2.png');
+    background-image: url('../images/banners/cert-banner.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 #certified-icons-wrap {
     display: block;
     margin: auto;
-    max-width: 1080px;
+    max-width: 1040px;
 }
 
 .certified-block {
