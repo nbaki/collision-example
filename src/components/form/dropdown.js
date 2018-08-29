@@ -17,7 +17,7 @@ class Dropdown extends React.Component {
     if (this.props.multiple) {
       selectedValues = selection.map((sel) => {return sel.value});
     } else {
-      selectedValues = (selection && selection.value);
+      selectedValues = selection;
     }
 
     this.props.setValue(selectedValues);
