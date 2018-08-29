@@ -14,9 +14,11 @@ export default class AudiBrand extends React.Component {
         <Container fluid>
           <div className="contained-text">
             <Row>
-              <Col>
+              <Col md={12}>
                 <h1>Audi</h1>
                 <hr />
+              </Col>
+              <Col md={8}>
                 <p>
                   This facility meets Audi's exacting repair standards and uses Audi Genuine Parts backed by the factory warranty.
                 </p>
@@ -25,11 +27,14 @@ export default class AudiBrand extends React.Component {
                   you are the one who decides where your vehicle will be repaired.  As the owner or lessee, you have the right to know in advance what parts are proposed,
                   and decide which ones are ultimately used, for the repair of your vehicle.  
                 </p>
-                <Row>
-                  <Col>
-                    <img src={AudiPhoto1} id="brand-photos" />
-                  </Col>
-                </Row>
+              </Col>
+              <Col md={4}>
+                <img src={AudiPhoto1} id="brand-photos" alt="audi" />
+              </Col>
+              <Col md={4}>
+                <img src={AudiPhoto2} id="brand-photos" alt="audi" />
+              </Col>
+              <Col md={8}>
                 <p>
                   Lauderdale Collision Center uses only Audi Genuine Parts that are backed by the Audi Manufacturer Vehicle Warranty. 
                 </p>
@@ -41,12 +46,8 @@ export default class AudiBrand extends React.Component {
                   Our goal as an Audi Authorized Collision Repair Facility, is to bring your Audi back to its pre-crash condition. 
                   We call it, "Fixed Right, First Time." In short - you can rely on Audi excellence.
                 </p>
-                <Row>
-                  <Col>
-                    <img src={AudiPhoto2} id="brand-photos" />
-                  </Col>
-                </Row>
               </Col>
+
             </Row>
           </div>
         </Container>
