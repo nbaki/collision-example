@@ -140,7 +140,7 @@ export default class Certifications extends React.Component {
                         <div className="text-center">
                           <div id="brand-name">INFINITI</div>
                           <small>
-                            <a id="certified-link" href="/certified/brands/infiniti"><small>LEARN MORE ></small></a>
+                            <a id="certified-link" href="/certified/brands/infiniti">LEARN MORE ></a>
                           </small>
                         </div>
                       </Col>
