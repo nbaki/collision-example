@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'reactstrap';
 import InfinitiBanner from '../../../images/banners/Infiniti-Header.jpg';
 import InfinitiPhoto1 from '../../../images/photos/infiniti/_Infiniti1.jpg';
 import InfinitiPhoto2 from '../../../images/photos/infiniti/_Infiniti2.jpg';
-import InfinitiPhoto3 from '../../../images/photos/infiniti/_Infiniti3.jpg';
 
 export default class InfinitiBrand extends React.Component {
   render() {
@@ -15,9 +14,11 @@ export default class InfinitiBrand extends React.Component {
         <Container fluid>
           <div className="contained-text">
             <Row>
-              <Col>
+              <Col md={12}>
                 <h1>INFINITI</h1>
                 <hr />
+              </Col>
+              <Col md={8}>
                 <p>
                   Enjoy the many benefits of choosing an INFINITI Certified Collision Repair Facility, including:
                 </p>
@@ -35,7 +36,14 @@ export default class InfinitiBrand extends React.Component {
                     Peace of mind knowing your vehicle is in the hands of a professional.
                   </li>
                 </ul>
-                <img src={InfinitiPhoto1} id="brand-photos" />
+              </Col>
+              <Col md={4}>
+                <img src={InfinitiPhoto1} id="brand-photos" alt="INFINITI" />
+              </Col>
+              <Col md={4}>
+                <img src={InfinitiPhoto2} id="brand-photos" alt="INFINITI" />
+              </Col>
+              <Col md={8}>
                 <p>
                   Besides being an INFINITI Certified Collision Repair Facility, there are many other benefits to having your car repaired at the Lauderdale Collision Center.
                 </p>
@@ -56,7 +64,6 @@ export default class InfinitiBrand extends React.Component {
                     We are equipped to handle all makes and models.
                   </li>
                 </ul>
-                <img src={InfinitiPhoto2} id="brand-photos" />
               </Col>
             </Row>
           </div>

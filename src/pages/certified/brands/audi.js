@@ -47,7 +47,6 @@ export default class AudiBrand extends React.Component {
                   We call it, "Fixed Right, First Time." In short - you can rely on Audi excellence.
                 </p>
               </Col>
-
             </Row>
           </div>
         </Container>

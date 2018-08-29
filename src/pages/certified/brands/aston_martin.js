@@ -15,43 +15,43 @@ export default class AstonMartinBrand extends React.Component {
         <Container fluid>
           <div className="contained-text">
             <Row>
-              <Col>
+              <Col md={12}>
                 <h1>Aston Martin</h1>
                 <hr />
+              </Col>
+              <Col md={8}>
                 <p>
                   Our collision center and body shop, Lauderdale Collision, offers top-notch equipment and highly-trained technicians who know exactly how to handle your incredible car.
                 </p>
-                <Row>
-                  <Col>
-                    <img src={AstonMartinPhoto1} id="brand-photos" />
-                  </Col>
-                </Row>
                 <p>
                   We are a proud Aston Martin Certified Collision Repair Center.
                 </p>
-                <Row>
-                  <Col>
-                    <img src={AstonMartinPhoto3} id="brand-photos" />
-                  </Col>
-                </Row>
+              </Col>
+              <Col md={4}>
+                <img src={AstonMartinPhoto4} id="brand-photos" alt="aston martin" />
+              </Col>
+
+              <Col md={4}>
+                <img src={AstonMartinPhoto1} id="brand-photos" alt="aston martin" />
+              </Col>
+              <Col>
                 <p>
                   Each member of our Lauderdale Collision team is uniquely certified to work on Aston Martin.
                 </p>
                 <p>
                   We use only original OEM parts and approved tools or equipment to repair your luxury auto.
                 </p>
-
+              </Col>
+              <Col md={8}>
                 <p>
                   Our collision work comes with a LIFETIME Guarantee on parts and labor for as long as you own/lease the vehicle.
                 </p>
-                <Row>
-                  <Col>
-                    <img src={AstonMartinPhoto4} id="brand-photos" />
-                  </Col>
-                </Row>
                 <p>
                   Complimentary Flatbed service.
                 </p>
+              </Col>
+              <Col md={4}>
+                <img src={AstonMartinPhoto3} id="brand-photos" alt="aston martin" />
               </Col>
             </Row>
           </div>

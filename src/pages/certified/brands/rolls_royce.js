@@ -14,23 +14,31 @@ export default class RollsRoyceBrand extends React.Component {
         <Container fluid>
           <div className="contained-text">
             <Row>
-              <Col>
+              <Col md={12}>
                 <h1>Rolls Royce</h1>
                 <hr />
+              </Col>
+              <Col md={8}>
                 <p>
                   Our collision center and body shop, Lauderdale Collision, offers top-notch equipment and highly-trained technicians who know exactly how to handle your incredible car.
                 </p>
                 <p>
                   We are a proud Rolls-Royce Certified Collision Repair Center.
                 </p>
-                <img src={RollsRoycePhoto1} id="brand-photos" />
+              </Col>
+              <Col md={4}>
+                <img src={RollsRoycePhoto1} id="brand-photos" alt="rolls-royce" />
+              </Col>
+              <Col md={4}>
+                <img src={RollsRoycePhoto2} id="brand-photos" alt="rolls-royce" />
+              </Col>
+              <Col md={8}>
                 <p>
                   Each member of our Lauderdale Collision team is uniquely certified to work on Rolls-Royce.
                 </p>
                 <p>
                   We use only original OEM parts and approved tools or equipment to repair your luxury auto.
                 </p>
-                <img src={RollsRoycePhoto2} id="brand-photos" />
                 <p>
                   Our collision work comes with a LIFETIME Guarantee on parts and labor for as long as you own/lease the vehicle.
                 </p>
