@@ -22,7 +22,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div className="nav-wrap">
-        <Navbar id="nav" light expand="md">
+        <Navbar id="nav" light expand="lg">
           <NavbarBrand href="/"><img className="logo" id="logo" src={FtLauderdaleLogo} alt="Holman Collision" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
