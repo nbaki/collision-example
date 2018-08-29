@@ -1,12 +1,12 @@
 #location-wrap {
     display: block;
     margin: 2rem auto;
-    max-width: 1080px;
+    max-width: 1040px;
 }
 
 .location-intro {
     padding: 3rem;
-    background-image: url('../images/photos/mini/_MINI1.jpg');
+    background-image: url('../images/banners/location-banner.png');
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +17,7 @@
 #hours-wrap {
     display: block;
     margin: 2rem auto 7rem auto;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 #map {
@@ -26,7 +26,7 @@
     border: 1px solid rgb(230, 230, 230);
     border-radius: 7px;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     -webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
     box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
