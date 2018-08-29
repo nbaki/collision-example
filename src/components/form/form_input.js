@@ -15,11 +15,13 @@ class FormInput extends React.Component {
   render() {
     let errorMessage = this.props.getErrorMessage();
 
-    return <FormGroup>
-      {this.props.label && <Label>{this.props.label}: {this.props.required && '*'}</Label>}
-      <Input type={this.props.type} value={this.props.getValue() || ''} onChange={this.onChange} placeholder={this.props.placeholder} />
-      <FormText>{errorMessage}</FormText>
-    </FormGroup>
+    return (
+      <FormGroup>
+        {this.props.label && <Label>{this.props.label}: {this.props.required && '*'}</Label>}
+        <Input type={this.props.type} value={this.props.getValue() || ''} onChange={this.onChange} placeholder={this.props.placeholder} />
+        <FormText>{errorMessage}</FormText>
+      </FormGroup>
+    )
   }
 }
 

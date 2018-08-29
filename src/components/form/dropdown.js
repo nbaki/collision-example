@@ -27,19 +27,21 @@ class Dropdown extends React.Component {
   render() {
     let errorMessage = this.props.getErrorMessage();
 
-    return <FormGroup>
-      {this.props.label && <Label>{this.props.label}: {this.props.required && '*'}</Label>}
-      <Select
-        onChange={this.onChange}
-        placeholder={this.props.placeholder}
-        value={this.props.getValue() || this.props.value || ''}
-        options={this.props.options}
-        closeOnSelect={!this.props.multiple}
-        multi={this.props.multiple}
-        disabled={this.props.disabled}
-      />
-      <FormText>{errorMessage}</FormText>
-    </FormGroup>
+    return (
+      <FormGroup>
+        {this.props.label && <Label>{this.props.label}: {this.props.required && '*'}</Label>}
+        <Select
+          onChange={this.onChange}
+          placeholder={this.props.placeholder}
+          value={this.props.getValue() || this.props.value || ''}
+          options={this.props.options}
+          closeOnSelect={!this.props.multiple}
+          multi={this.props.multiple}
+          disabled={this.props.disabled}
+        />
+        <FormText>{errorMessage}</FormText>
+      </FormGroup>
+    )
   }
 }
 
