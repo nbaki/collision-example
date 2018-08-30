@@ -83,32 +83,58 @@ export default class ScheduleAppointment extends React.Component {
     this.enableButton = this.enableButton.bind(this);
   }
 
-  disableButton() {
-    this.setState({ enableButton: false });
-  }
-
   enableButton() {
     this.setState({ enableButton: true });
   }
 
+  disableButton() {
+    this.setState({ enableButton: false });
+  }
+
+  getLabel(contactMethod, selectState, preferredTime) {
+    return [contactMethod.label, selectState.label, preferredTime.label]
+  }
+
   sendSchedule(data) {
-       jquery.ajax({
-          type: "POST",
-          url: 'https://collision.holmanautomotive.com/schedule_laudale',
-          data: jquery( this ).serialize(),
-          success: () => {
-              alert('Mail Sent');
-          },
-          error: () => {
-              alert('Something went wrong, please try again.');
-          }
-       });
+    var params = {
+      first_name: data.first_name,
+      last_name: data.last_name,
+      email: data.email,
+      phone: data.phone,
+      contactby: data.contactby.label,
+      address: data.address,
+      city: data.city,
+      selectState: data.selectState.label,
+      zipcode: data.zipcode,
+      vehiclemake: data.vehiclemake,
+      vehiclemodel: data.vehiclemodel,
+      vehicleyear: data.vehicleyear,
+      licenseplate: data.licenseplate,
+      mileage: data.mileage,
+      date: data.date,
+      preferredTime: data.preferredTime.label,
+      servicedescription: data.servicedescription,
+      comments: data.comments
+    }
+
+    jquery.ajax({
+      type: 'POST',
+      // https://collision.holmanautomotive.com/schedule_laudale
+      url: 'http://collision.lvh.me:3001/schedule_lauderdale',
+      data: params,
+      success: () => {
+        alert('Appointment Schedule Request Sent');
+      },
+      error: () => {
+        alert('Something went wrong with your request, please try again.');
+      }
+    })
   }
 
   toggle() {
     this.setState({
       modal: !this.state.modal
-    });
+    })
   }
 
   render() {
@@ -122,7 +148,7 @@ export default class ScheduleAppointment extends React.Component {
               <FormInput name="first_name" label="First Name" validations="minLength:2" required />
               <FormInput name="last_name" label="Last Name" validations="minLength:2" required />
               <FormInput name="email" label="Email" validations="isEmail" required />
-              <FormInput name="phone" label="Phone" validations="isNumeric,minLength:7,maxLength:10" required />
+              <FormInput name="phone" label="Phone" validations="isNumeric" required />
               <Dropdown name="contactby" label="Preferred Contact Method" placeholder="Preferred Contact Method" options={this.state.contactMethod} required />
               <FormInput name="address" label="Address" required />
               <FormInput name="city" label="City" required />
