@@ -18,23 +18,23 @@ export default class HondaBrand extends React.Component {
                 <h1>Honda</h1>
                 <hr />
               </Col>
-              <Col md={8}>
+              <Col md={6}>
                 <p>
                   All repair work is done by Honda-trained technicians using Honda repair procedures and approved tools and equipment to meet Honda's repair specifications.
                 </p>
                 <p>
-                  Only Honda Genuine Parts are used to live up to the Honda reputation for quality, and to suit the specific performance of a Honda
+                  Only Honda Genuine Parts are used to live up to the Honda reputation for quality, and to suit the specific performance of a Honda.
                 </p>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <img src={HondaPhoto1} id="brand-photos" alt="Honda" />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <img src={HondaPhoto2} id="brand-photos" alt="Honda" />
               </Col>
-              <Col md={8}>
+              <Col md={6}>
                 <p>
-                  Our staff is fully trained by I-CAR and ASE
+                  Our staff is fully trained by I-CAR and ASE.
                 </p>
                 <p>
                   Peace of mind knowing your vehicle is in the hands of a professional.

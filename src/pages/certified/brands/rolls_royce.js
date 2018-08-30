@@ -25,6 +25,9 @@ export default class RollsRoyceBrand extends React.Component {
                 <p>
                   We are a proud Rolls-Royce Certified Collision Repair Center.
                 </p>
+                <p>
+                  Each member of our Lauderdale Collision team is uniquely certified to work on Rolls-Royce.
+                </p>
               </Col>
               <Col md={4}>
                 <img src={RollsRoycePhoto1} id="brand-photos" alt="rolls-royce" />
@@ -33,9 +36,6 @@ export default class RollsRoyceBrand extends React.Component {
                 <img src={RollsRoycePhoto2} id="brand-photos" alt="rolls-royce" />
               </Col>
               <Col md={8}>
-                <p>
-                  Each member of our Lauderdale Collision team is uniquely certified to work on Rolls-Royce.
-                </p>
                 <p>
                   We use only original OEM parts and approved tools or equipment to repair your luxury auto.
                 </p>

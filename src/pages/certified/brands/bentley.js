@@ -19,38 +19,33 @@ export default class BentleyBrand extends React.Component {
                 <h1>Bentley</h1>
                 <hr />
               </Col>
-              <Col md={8}>
+              <Col md={4}>
                 <p>
                   Our collision center and body shop, Lauderdale Collision, offers top-notch equipment and highly-trained technicians who know exactly how to handle your incredible car.
                 </p>
                 <p>
                   We are a proud Bentley Certified Collision Repair Center.
                 </p>
-              </Col>
-              <Col md={4}>
-                <img src={BentleyPhoto1} id="brand-photos" alt="Bentley" />
-              </Col>
-              <Col md={4}>
-                <img src={BentleyPhoto3} id="brand-photos" alt="Bentley" />
-              </Col>
-              <Col md={8}>
                 <p>
                   Each member of our Lauderdale Collision team is uniquely certified to work on Bentley.
                 </p>
+              </Col>
+              <Col md={8}>
+                <img src={BentleyPhoto1} id="brand-photos" alt="Bentley" />
+              </Col>
+              <Col md={4}>
+                <img src={BentleyPhoto2} id="brand-photos" alt="Bentley" />
+              </Col>
+              <Col md={8}>
                 <p>
                   We use only original OEM parts and approved tools or equipment to repair your luxury auto.
                 </p>
-              </Col>
-              <Col md={8}>
                 <p>
                   Our collision work comes with a LIFETIME Guarantee on parts and labor for as long as you own/lease the vehicle.
                 </p>
                 <p>
                   Complimentary Flatbed service.
                 </p>
-              </Col>
-              <Col md={4}>
-                <img src={BentleyPhoto2} id="brand-photos" alt="Bentley" />
               </Col>
             </Row>
           </div>

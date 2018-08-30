@@ -26,32 +26,27 @@ export default class AstonMartinBrand extends React.Component {
                 <p>
                   We are a proud Aston Martin Certified Collision Repair Center.
                 </p>
+                <p>
+                  Each member of our Lauderdale Collision team is uniquely certified to work on Aston Martin.
+                </p>
               </Col>
               <Col md={4}>
                 <img src={AstonMartinPhoto4} id="brand-photos" alt="aston martin" />
               </Col>
 
-              <Col md={4}>
-                <img src={AstonMartinPhoto1} id="brand-photos" alt="aston martin" />
+              <Col md={6}>
+                <img src={AstonMartinPhoto3} id="brand-photos" alt="aston martin" />
               </Col>
-              <Col>
-                <p>
-                  Each member of our Lauderdale Collision team is uniquely certified to work on Aston Martin.
-                </p>
+              <Col md={6}>
                 <p>
                   We use only original OEM parts and approved tools or equipment to repair your luxury auto.
                 </p>
-              </Col>
-              <Col md={8}>
                 <p>
                   Our collision work comes with a LIFETIME Guarantee on parts and labor for as long as you own/lease the vehicle.
                 </p>
                 <p>
                   Complimentary Flatbed service.
                 </p>
-              </Col>
-              <Col md={4}>
-                <img src={AstonMartinPhoto3} id="brand-photos" alt="aston martin" />
               </Col>
             </Row>
           </div>

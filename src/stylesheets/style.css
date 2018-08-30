@@ -18,6 +18,10 @@ div.contained-text {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646464', endColorstr='#646464',GradientType=1 ); /* IE6-9 */
 }
 
+p {
+    margin-bottom: .3rem !important;
+}
+
 .logo {
     width: 150px;
 }

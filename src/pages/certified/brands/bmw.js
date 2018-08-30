@@ -27,25 +27,25 @@ export default class BMWBrand extends React.Component {
                 <p>
                   All repair work is done by BMW-trained technicians using BMW repair procedures and approved tools and equipment to meet BMW's repair specifications.   
                 </p>
+                <p>
+                  Only Original BMW Parts are used.
+                </p>
               </Col>
               <Col md={4}>
                 <img src={BMWPhoto2} id="brand-photos" alt="BMW" />
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <img src={BMWPhoto1} id="brand-photos" alt="BMW" />
               </Col>
-              <Col md={8}>
-                <p>
-                  Only Original BMW Parts are used.
-                </p>
+              <Col md={6}>
                 <p>
                   Besides restoring the integrity and safety features of your BMW, all properly installed Original BMW Parts come with a two-year unlimited mileage limited warranty.
                 </p>
-              </Col>
-              <Col md={8}>
                 <p>
                   Only BMW Certified Collision Repair Centers possess the technology, tools, equipment and expertise to locate problems beneath the surface, delivering more accurate and precise diagnoses for repairs, both inside and out.
                 </p>
+              </Col>
+              <Col md={6}>
                 <p>
                   Our work comes with a lifetime guarantee.
                 </p>
@@ -53,7 +53,7 @@ export default class BMWBrand extends React.Component {
                   Special courtesies for current BMW owners.
                 </p>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <img src={BMWPhoto3} id="brand-photos" alt="BMW" />
               </Col>
             </Row>
