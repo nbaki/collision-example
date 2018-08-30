@@ -7,13 +7,9 @@ import PhoneIcon from '../../images/icons/phone.svg';
 import '../../stylesheets/contact.css';
 import jquery from 'jquery';
 
-// http://collision.lvh.me:3000/schedule_lauderdale
-
 export default class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.disableButton = this.disableButton.bind(this);
-    this.enableButton = this.enableButton.bind(this);
     this.state = {
       modal: false,
       enableButton: false,
@@ -23,36 +19,50 @@ export default class Contact extends React.Component {
       ]
     }
     this.toggle = this.toggle.bind(this);
+    this.getContactLabel = this.getContactLabel.bind(this);
     this.disableButton = this.disableButton.bind(this);
     this.enableButton = this.enableButton.bind(this);
-  }
-
-  disableButton() {
-    this.setState({ enableButton: false });
   }
 
   enableButton() {
     this.setState({ enableButton: true });
   }
 
+  disableButton() {
+    this.setState({ enableButton: false });
+  }
+
+  getContactLabel(contactMethod) {
+    return contactMethod.label
+  }
+
   sendContact(data) {
-     jquery.ajax({
-        type: "POST",
-        url: 'https://collision.holmanautomotive.com/contact_lauderdale',
-        data: jquery( this ),
-        success: () => {
-            alert('Mail Sent');
-        },
-        error: () => {
-            alert('Something went wrong, please try again.');
-        }
-     });
+    var params = {
+      first_name: data.first_name,
+      last_name: data.last_name,
+      email: data.email,
+      phone: data.phone,
+      contactby: data.contactby.label,
+      question: data.question
+    }
+
+    jquery.ajax({
+      type: 'POST',
+      url: 'http://collision.lvh.me:3001/contact_lauderdale',
+      data: params,
+      success: () => {
+        console.log('Success');
+      },
+      error: () => {
+        alert('Something went wrong, please try again.');
+      }
+    })
   }
 
   toggle() {
     this.setState({
       modal: !this.state.modal
-    });
+    })
   }
 
   render() {
@@ -75,7 +85,7 @@ export default class Contact extends React.Component {
               <FormInput name="first_name" label="First Name" validations="minLength:2" required />
               <FormInput name="last_name" label="Last Name" validations="minLength:2" required />
               <FormInput name="email" label="Email" validations="isEmail" required />
-              <FormInput name="phone" label="Phone" validations="isNumeric,minLength:7,maxLength:10" required />
+              <FormInput name="phone" type="phone" label="Phone" validations="isNumeric" required />
               <Dropdown name="contactby" label="Preferred Contact Method" placeholder="Preferred Contact Method" options={this.state.contactMethod} required />
               <FormInput componentClass="textarea" name="question" label="Questions or Comments" required />
               <ModalFooter>
