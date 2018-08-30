@@ -107,6 +107,7 @@ export default class ScheduleAppointment extends React.Component {
   }
 
   sendSchedule(data) {
+    console.log(data);
     var params = {
       first_name: data.first_name,
       last_name: data.last_name,
@@ -115,7 +116,7 @@ export default class ScheduleAppointment extends React.Component {
       contactby: data.contactby.label,
       address: data.address,
       city: data.city,
-      selectState: data.selectState.label,
+      selectState: data.selectstate.label,
       zipcode: data.zipcode,
       vehiclemake: data.vehiclemake,
       vehiclemodel: data.vehiclemodel,
@@ -123,7 +124,7 @@ export default class ScheduleAppointment extends React.Component {
       licenseplate: data.licenseplate,
       mileage: data.mileage,
       date: data.date,
-      preferredTime: data.preferredTime.label,
+      preferredTime: data.preferredtime.label,
       servicedescription: data.servicedescription,
       comments: data.comments
     }
