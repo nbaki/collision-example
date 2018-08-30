@@ -79,6 +79,9 @@ export default class ScheduleAppointment extends React.Component {
       ]
     }
     this.toggle = this.toggle.bind(this);
+    this.getContactLabel = this.getContactLabel.bind(this);
+    this.getStateLabel = this.getStateLabel.bind(this);
+    this.getTimeLabel = this.getTimeLabel.bind(this);
     this.disableButton = this.disableButton.bind(this);
     this.enableButton = this.enableButton.bind(this);
   }
@@ -91,8 +94,16 @@ export default class ScheduleAppointment extends React.Component {
     this.setState({ enableButton: false });
   }
 
-  getLabel(contactMethod, selectState, preferredTime) {
-    return [contactMethod.label, selectState.label, preferredTime.label]
+  getContactLabel(contactMethod) {
+    return contactMethod.label
+  }
+
+  getStateLabel(selectState) {
+    return selectState.label
+  }
+
+  getTimeLabel(preferredTime) {
+    return preferredTime.label
   }
 
   sendSchedule(data) {
@@ -119,7 +130,6 @@ export default class ScheduleAppointment extends React.Component {
 
     jquery.ajax({
       type: 'POST',
-      // https://collision.holmanautomotive.com/schedule_laudale
       url: 'http://collision.lvh.me:3001/schedule_lauderdale',
       data: params,
       success: () => {
