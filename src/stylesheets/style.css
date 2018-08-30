@@ -6,7 +6,8 @@ html, body {
 div.contained-text {
     padding: 2rem;
     max-width: 1080px;
-    margin: 1rem auto 3rem auto;
+    font-weight: 500;
+    margin: 1rem auto .5rem auto;
 }
 
 .background-grad {
