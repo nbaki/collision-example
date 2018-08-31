@@ -151,7 +151,7 @@ div#certification-text-match {
 }
 
 #history-btn {
-    margin-bottom: 1.5rem;
+    margin: 1.5rem auto;
     font-weight: 700;
     color: rgb(0, 60, 113);
     -webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .2);
