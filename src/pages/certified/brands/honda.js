@@ -12,7 +12,7 @@ export default class HondaBrand extends React.Component {
           <img src={HondaBanner} id="banner" alt="Honda" />
         </div>
         <Container fluid>
-          <div className="contained-text">
+          <div className="contained-text" id="space">
             <Row>
               <Col md={12}>
                 <h1>Honda</h1>

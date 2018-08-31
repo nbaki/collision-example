@@ -12,7 +12,7 @@ export default class InfinitiBrand extends React.Component {
           <img src={InfinitiBanner} id="banner" alt="INFINITI" />
         </div>
         <Container fluid>
-          <div className="contained-text">
+          <div className="contained-text" id="space">
             <Row>
               <Col md={12}>
                 <h1>INFINITI</h1>

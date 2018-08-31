@@ -3,6 +3,10 @@ html, body {
     background-color: rgb(255, 255, 255);
 }
 
+div#space {
+    margin-bottom: 7rem;
+}
+
 div.contained-text {
     padding: 2rem;
     max-width: 1080px;

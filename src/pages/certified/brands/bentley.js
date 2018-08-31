@@ -13,7 +13,7 @@ export default class BentleyBrand extends React.Component {
           <img src={BentleyBanner} id="banner" alt="Bentley" />
         </div>
         <Container fluid>
-          <div className="contained-text">
+          <div className="contained-text" id="space">
             <Row>
               <Col md={12}>
                 <h1>Bentley</h1>

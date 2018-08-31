@@ -13,7 +13,7 @@ export default class MiniBrand extends React.Component {
           <img src={MiniBanner} id="banner" alt="MINI" />
         </div>
         <Container fluid>
-          <div className="contained-text">
+          <div className="contained-text" id="space">
             <Row>
               <Col md={12}>
                 <h1>MINI</h1>

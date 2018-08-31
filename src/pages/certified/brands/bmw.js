@@ -14,7 +14,7 @@ export default class BMWBrand extends React.Component {
           <img src={BMWBanner} id="banner" alt="BMW" />
         </div>
         <Container fluid>
-          <div className="contained-text cert-text">
+          <div className="contained-text cert-text" id="space">
             <Row>
               <Col md={12}>
                 <h1>BMW</h1>
