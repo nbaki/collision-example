@@ -25,7 +25,7 @@ export default class Location extends React.Component {
             <Row>
               <Col md={4}>
                 <div className="text-center">
-                  <h2><img src={NavigationIcon} id="header-icon" alt="address" />Address</h2>
+                  <h2 id="address-header"><img src={NavigationIcon} id="header-icon" alt="address" />Address</h2>
                 </div>
                 <div id="address-text">
                   <a href="https://goo.gl/maps/5sz3EfzHeuB2" target="_blank" rel="noopener noreferrer">
