@@ -42,13 +42,17 @@ export default class Location extends React.Component {
                   </a>
                 </div>
               </Col>
-              <Col md={6}>
-                <Address />
-              </Col>
-              <Col md={6}>
-                <Hours />
-              </Col>
             </Row>
+            <div className="address-hours-wrap">
+              <Row>
+                <Col md={6}>
+                  <Address />
+                </Col>
+                <Col md={6}>
+                  <Hours />
+                </Col>
+              </Row>
+            </div>
           </Container>
         </div>
       </div>

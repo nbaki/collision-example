@@ -69,7 +69,7 @@
     padding: .35rem !important;
 }
 
-#address-header,
-#hours-header {
-    color: rgb(0, 60, 113);
+.address-hours-wrap {
+    margin: auto;
+    max-width: 750px;
 }
