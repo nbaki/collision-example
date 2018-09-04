@@ -13,7 +13,7 @@ export default class CertifiedCommitment extends React.Component {
             <Row>
               <Col>
                 <h1 className="text-center" id="certified-header">Our Certified Commitment.</h1>
-                <div className="animated fadeInRight">
+                <div className="animated fadeIn">
                   <p>
                     Lauderdale Collision Center is a manufacturer-certified Audi, Aston Martin, BMW, Bentley, Honda, INFINITI, MINI, and Rolls-Royce  body shop located in Fort Lauderdale, Florida.
                     Our team of ASE-certified technicians and certified Body Shop Professionals have the parts, tools and expertise to repair your vehicle's damage. We repair all makes and models,
