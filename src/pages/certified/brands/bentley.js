@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'reactstrap';
 import BentleyBanner from '../../../images/banners/Bentley-Header.jpg';
 import BentleyPhoto1 from '../../../images/photos/bentley/Bentley1.jpg';
 import BentleyPhoto2 from '../../../images/photos/bentley/Bentley2.jpg';
-import BentleyPhoto3 from '../../../images/photos/bentley/Bentley3.jpg';
 
 export default class BentleyBrand extends React.Component {
   render() {

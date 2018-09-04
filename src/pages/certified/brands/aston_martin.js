@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import AstonMartinBanner from '../../../images/banners/Aston-Header.jpg';
-import AstonMartinPhoto1 from '../../../images/photos/aston-martin/_Aston1.jpg';
 import AstonMartinPhoto3 from '../../../images/photos/aston-martin/_Aston3.jpg';
 import AstonMartinPhoto4 from '../../../images/photos/aston-martin/_Aston4.jpg';
 

@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'reactstrap';
 import MiniBanner from '../../../images/banners/MINI-Header.jpg';
 import MiniPhoto2 from '../../../images/photos/mini/_MINI2.jpg';
 import MiniPhoto3 from '../../../images/photos/mini/_MINI3.jpg';
-import MiniPhoto4 from '../../../images/photos/mini/_MINI4.jpg';
 
 export default class MiniBrand extends React.Component {
   render() {
