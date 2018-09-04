@@ -62,16 +62,50 @@ input#date-input {
     cursor: pointer;
 }
 
-.footer {
-    bottom: 0;
-    width: 100%;
-    display: block;
-    position: relative;
-    background-color: rgb(0, 60, 113);
-    padding: 2.5rem;
+@keyframes fadeInRight {
+    0% {
+       opacity: .1;
+       transform: translateX(3px);
+    }
+
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
 }
 
-.footer > div > p {
-    color: rgb(255, 255, 255);
-    cursor: default;
+.in-right {
+    animation: fadeInRight 2s 1 0s ease-in-out;
+}
+
+@keyframes fadeInLeft {
+    0% {
+       opacity: .1;
+       transform: translateX(-3px);
+    }
+
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+
+.in-left {
+    animation: fadeInLeft 2s 1 0s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: .1;
+        transform: translateY(-1px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.in-up {
+    animation: fadeInUp 1s 1 0s ease-in-out;
 }

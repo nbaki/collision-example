@@ -15,37 +15,40 @@ export default class AstonMartinBrand extends React.Component {
           <div className="contained-text" id="space">
             <Row>
               <Col md={12}>
-                <h1>Aston Martin</h1>
+                <h1 className="in-up">Aston Martin</h1>
                 <hr />
               </Col>
               <Col md={8}>
-                <p>
-                  Our collision center and body shop, Lauderdale Collision, offers top-notch equipment and highly-trained technicians who know exactly how to handle your incredible car.
-                </p>
-                <p>
-                  We are a proud Aston Martin Certified Collision Repair Center.
-                </p>
-                <p>
-                  Each member of our Lauderdale Collision team is uniquely certified to work on Aston Martin.
-                </p>
+                <div className="in-left">
+                  <p>
+                    Our collision center and body shop, Lauderdale Collision, offers top-notch equipment and highly-trained technicians who know exactly how to handle your incredible car.
+                  </p>
+                  <p>
+                    We are a proud Aston Martin Certified Collision Repair Center.
+                  </p>
+                  <p>
+                    Each member of our Lauderdale Collision team is uniquely certified to work on Aston Martin.
+                  </p>
+                </div>
               </Col>
               <Col md={4}>
-                <img src={AstonMartinPhoto4} id="brand-photos" alt="aston martin" />
-              </Col>
-
-              <Col md={6}>
-                <img src={AstonMartinPhoto3} id="brand-photos" alt="aston martin" />
+                <img src={AstonMartinPhoto4} className="in-up" id="brand-photos" alt="aston martin" />
               </Col>
               <Col md={6}>
-                <p>
-                  We use only original OEM parts and approved tools or equipment to repair your luxury auto.
-                </p>
-                <p>
-                  Our collision work comes with a LIFETIME Guarantee on parts and labor for as long as you own/lease the vehicle.
-                </p>
-                <p>
-                  Complimentary Flatbed service.
-                </p>
+                <img src={AstonMartinPhoto3} className="in-up" id="brand-photos" alt="aston martin" />
+              </Col>
+              <Col md={6}>
+                <div className="in-right">
+                  <p>
+                    We use only original OEM parts and approved tools or equipment to repair your luxury auto.
+                  </p>
+                  <p>
+                    Our collision work comes with a LIFETIME Guarantee on parts and labor for as long as you own/lease the vehicle.
+                  </p>
+                  <p>
+                    Complimentary Flatbed service.
+                  </p>
+                </div>
               </Col>
             </Row>
           </div>

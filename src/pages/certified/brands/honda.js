@@ -15,30 +15,34 @@ export default class HondaBrand extends React.Component {
           <div className="contained-text" id="space">
             <Row>
               <Col md={12}>
-                <h1>Honda</h1>
+                <h1 className="in-up">Honda</h1>
                 <hr />
               </Col>
               <Col md={6}>
-                <p>
-                  All repair work is done by Honda-trained technicians using Honda repair procedures and approved tools and equipment to meet Honda's repair specifications.
-                </p>
-                <p>
-                  Only Honda Genuine Parts are used to live up to the Honda reputation for quality, and to suit the specific performance of a Honda.
-                </p>
+                <div className="in-left">
+                  <p>
+                    All repair work is done by Honda-trained technicians using Honda repair procedures and approved tools and equipment to meet Honda's repair specifications.
+                  </p>
+                  <p>
+                    Only Honda Genuine Parts are used to live up to the Honda reputation for quality, and to suit the specific performance of a Honda.
+                  </p>
+                </div>
               </Col>
               <Col md={6}>
-                <img src={HondaPhoto1} id="brand-photos" alt="Honda" />
+                <img src={HondaPhoto1} className="in-up" id="brand-photos" alt="Honda" />
               </Col>
               <Col md={6}>
-                <img src={HondaPhoto2} id="brand-photos" alt="Honda" />
+                <img src={HondaPhoto2} className="in-up" id="brand-photos" alt="Honda" />
               </Col>
               <Col md={6}>
-                <p>
-                  Our staff is fully trained by I-CAR and ASE.
-                </p>
-                <p>
-                  Peace of mind knowing your vehicle is in the hands of a professional.
-                </p>
+                <div className="in-right">
+                  <p>
+                    Our staff is fully trained by I-CAR and ASE.
+                  </p>
+                  <p>
+                    Peace of mind knowing your vehicle is in the hands of a professional.
+                  </p>
+                </div>
               </Col>
             </Row>
           </div>
