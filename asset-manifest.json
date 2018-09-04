@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.3a9b9574.css",
   "main.css.map": "static/css/main.3a9b9574.css.map",
-  "main.js": "static/js/main.5b57ce6c.js",
-  "main.js.map": "static/js/main.5b57ce6c.js.map",
+  "main.js": "static/js/main.558e8e22.js",
+  "main.js.map": "static/js/main.558e8e22.js.map",
   "static/media/Aston-Header.jpg": "static/media/Aston-Header.8d0c52bc.jpg",
   "static/media/AstonMartin.svg": "static/media/AstonMartin.7f01829b.svg",
   "static/media/Audi-Header.jpg": "static/media/Audi-Header.3045ec19.jpg",
@@ -49,9 +49,7 @@
   "static/media/holman_history.png": "static/media/holman_history.0fdfafc5.png",
   "static/media/location-banner.png": "static/media/location-banner.3efd7983.png",
   "static/media/mapshot.png": "static/media/mapshot.2a55496f.png",
-  "static/media/navigation.svg": "static/media/navigation.77037371.svg",
   "static/media/phone.svg": "static/media/phone.25e53dea.svg",
   "static/media/schedule.svg": "static/media/schedule.b6765471.svg",
-  "static/media/techs.svg": "static/media/techs.32fd6403.svg",
-  "static/media/time.svg": "static/media/time.c0c890e4.svg"
+  "static/media/techs.svg": "static/media/techs.32fd6403.svg"
 }
